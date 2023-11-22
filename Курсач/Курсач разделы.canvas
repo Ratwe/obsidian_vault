@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"5c5a30c18aa900a3","type":"text","text":"[[Аналитический раздел]]","x":-292,"y":-260,"width":273,"height":60},
+		{"id":"5125ffe2b9b69c60","type":"text","text":"[[Второй тест по НИР]]","x":80,"y":-260,"width":250,"height":60},
+		{"id":"1b7a4a158f42a54b","type":"text","text":"[[Конструкторский раздел]]","x":-292,"y":-150,"width":273,"height":60},
+		{"id":"14a824a114d9ea42","type":"text","text":"[[Технологический раздел]]","x":-292,"y":-40,"width":273,"height":60},
+		{"id":"315abe0d1f201d85","type":"text","text":"[[Исследование]]","x":-292,"y":80,"width":273,"height":60},
+		{"id":"f3a186e9b71e550f","type":"text","text":"[[Заключение]]","x":-292,"y":200,"width":273,"height":50},
+		{"id":"1691833c4ed74a12","type":"text","text":"[[Введение]]","x":-292,"y":-380,"width":273,"height":60},
+		{"id":"1004642e9a61bf2f","type":"text","text":"Ориентируйтесь на 3-7 страниц на каждый из четырёх главных разделов.","x":80,"y":-90,"width":400,"height":110}
+	],
+	"edges":[
+		{"id":"316783bac02d8b03","fromNode":"5c5a30c18aa900a3","fromSide":"bottom","toNode":"1b7a4a158f42a54b","toSide":"top"},
+		{"id":"ea1e55645cda269c","fromNode":"1b7a4a158f42a54b","fromSide":"bottom","toNode":"14a824a114d9ea42","toSide":"top"},
+		{"id":"6ed87110a6ddd8e2","fromNode":"14a824a114d9ea42","fromSide":"bottom","toNode":"315abe0d1f201d85","toSide":"top"},
+		{"id":"ad4743fa1c270716","fromNode":"315abe0d1f201d85","fromSide":"bottom","toNode":"f3a186e9b71e550f","toSide":"top"},
+		{"id":"c6c733467723e9d1","fromNode":"1691833c4ed74a12","fromSide":"bottom","toNode":"5c5a30c18aa900a3","toSide":"top"}
+	]
+}
