@@ -1,4 +1,4 @@
-Функция `CreateEvent` из Windows API используется для создания событий. События в Windows API - это объекты синхронизации, которые позволяют потокам взаимодействовать друг с другом. Они могут быть использованы для уведомления потоков о том, что произошло определенное событие [Source 0](https://learn.microsoft.com/en-us/windows/win32/api/synchapi/nf-synchapi-createeventa).
+Функция `CreateEvent` из [[Windows API]] используется для создания событий. События в Windows API - это объекты синхронизации, которые позволяют потокам взаимодействовать друг с другом. Они могут быть использованы для уведомления потоков о том, что произошло определенное событие [Source 0](https://learn.microsoft.com/en-us/windows/win32/api/synchapi/nf-synchapi-createeventa).
 
 Функция `CreateEvent` принимает четыре аргумента:
 
@@ -10,3 +10,6 @@
 Функция `CreateEvent` возвращает дескриптор события, который затем можно использовать в других функциях Windows API, которые требуют дескриптор события. Например, функция `SetEvent` используется для установки состояния события в сигнализированное, а функция `ResetEvent` используется для сброса состояния события в несигнализированное [Source 0](https://learn.microsoft.com/en-us/windows/win32/api/synchapi/nf-synchapi-createeventa).
 
 Если функция `CreateEvent` возвращает `NULL`, это означает, что произошла ошибка при создании события. В этом случае вы должны проверить значение `GetLastError` для определения причины ошибки [Source 0](https://learn.microsoft.com/en-us/windows/win32/api/synchapi/nf-synchapi-createeventa).
+
+### Links
+[[Сигналы]]
