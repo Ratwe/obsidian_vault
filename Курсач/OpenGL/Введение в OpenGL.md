@@ -11,4 +11,3 @@
 
 ### Zero-links
 [[00 OpenGL]]
-### Links

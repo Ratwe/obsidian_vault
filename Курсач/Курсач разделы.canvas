@@ -7,7 +7,8 @@
 		{"id":"315abe0d1f201d85","type":"text","text":"[[Исследование]]","x":-292,"y":80,"width":273,"height":60},
 		{"id":"f3a186e9b71e550f","type":"text","text":"[[Заключение]]","x":-292,"y":200,"width":273,"height":50},
 		{"id":"1691833c4ed74a12","type":"text","text":"[[Введение]]","x":-292,"y":-380,"width":273,"height":60},
-		{"id":"1004642e9a61bf2f","type":"text","text":"Ориентируйтесь на 3-7 страниц на каждый из четырёх главных разделов.","x":80,"y":-90,"width":400,"height":110}
+		{"id":"1004642e9a61bf2f","type":"text","text":"Ориентируйтесь на 3-7 страниц на каждый из четырёх главных разделов.","x":80,"y":-90,"width":400,"height":110},
+		{"id":"5ecebc0f367d5dbc","x":80,"y":110,"width":250,"height":60,"type":"text","text":"[[Презентация]]"}
 	],
 	"edges":[
 		{"id":"316783bac02d8b03","fromNode":"5c5a30c18aa900a3","fromSide":"bottom","toNode":"1b7a4a158f42a54b","toSide":"top"},
