@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"3e0612028877d10c","type":"text","text":"**[[База данных]]** - _самодокументированное_ собрание _интегрированных_ записей.","x":-520,"y":60,"width":380,"height":80},
+		{"id":"1b733f86aeac624d","type":"text","text":"Система управления базами данных ([[СУБД]]) - приложение, обеспечивающее создание, хранение, обновление и поиск информации в базах данных.\n(Создаёт и заполняет баночки вареньем)\n","x":500,"y":60,"width":460,"height":120},
+		{"id":"f6369f0e3c2525a1","type":"text","text":"Самодокументированное - содержит описание собственной структуры: словарь данных, [[каталог данных]], [[метаданные]]","x":-760,"y":380,"width":390,"height":103},
+		{"id":"6b5350c71d46eb95","type":"file","file":"Требования к БД.md","x":-708,"y":658,"width":762,"height":301},
+		{"id":"e1e974cbf20be074","type":"text","text":"[[Требования к БД]]:\nНиСЦЭБВН","x":-452,"y":539,"width":250,"height":60},
+		{"id":"e7eb7589d92f7acc","type":"text","text":"Интегрированные записи: файлы данных, метаданные, индексы","x":-260,"y":380,"width":314,"height":103},
+		{"id":"4bfd0781357038ae","type":"text","text":"[[Классификация СУБД]]:\n- по модели данных\n- по способу хранения\n- по способу доступа","x":900,"y":380,"width":291,"height":160},
+		{"id":"01e161141065b459","type":"text","text":"[[Задачи СУБД]]:\nУУУЖП","x":340,"y":380,"width":250,"height":60},
+		{"id":"931dc5d784213c45","type":"file","file":"БД/Экзамен/Задачи СУБД.md","x":185,"y":538,"width":560,"height":240},
+		{"id":"34d859ec4f8e8a95","type":"text","text":"1. Базы данных и системы управления базами данных. Определения, основные функции и классификация.","x":-40,"y":-100,"width":505,"height":80,"color":"1"},
+		{"id":"94af890814cc46de","type":"file","file":"БД/Экзамен/Классификация СУБД.md","x":829,"y":658,"width":434,"height":542}
+	],
+	"edges":[
+		{"id":"3c8ca0773eb7fd06","fromNode":"3e0612028877d10c","fromSide":"bottom","toNode":"f6369f0e3c2525a1","toSide":"top"},
+		{"id":"44237fa3bad21db3","fromNode":"3e0612028877d10c","fromSide":"bottom","toNode":"e7eb7589d92f7acc","toSide":"top"},
+		{"id":"e7c26ee23a6658bb","fromNode":"3e0612028877d10c","fromSide":"bottom","toNode":"e1e974cbf20be074","toSide":"top"},
+		{"id":"0114ede3e4fc0db8","fromNode":"e1e974cbf20be074","fromSide":"bottom","toNode":"6b5350c71d46eb95","toSide":"top"},
+		{"id":"a093573428bc2674","fromNode":"1b733f86aeac624d","fromSide":"bottom","toNode":"01e161141065b459","toSide":"top"},
+		{"id":"5e1f0393c02b9487","fromNode":"01e161141065b459","fromSide":"bottom","toNode":"931dc5d784213c45","toSide":"top"},
+		{"id":"77fdaf7d19e1e20c","fromNode":"1b733f86aeac624d","fromSide":"bottom","toNode":"4bfd0781357038ae","toSide":"top"},
+		{"id":"a34c7a394c03ca50","fromNode":"4bfd0781357038ae","fromSide":"bottom","toNode":"94af890814cc46de","toSide":"top"}
+	]
+}

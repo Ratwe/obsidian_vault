@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"3c4e6acc0cdc4d15","type":"text","text":"Семантическое моделирование - представление данных в графическом виде","x":-278,"y":126,"width":398,"height":74},
+		{"id":"40b3ee5e8cf0d15a","type":"text","text":"Семантика - смысловая нагрузка.\n\nЛюбая мысль - семантическая модель данных.","x":-288,"y":260,"width":418,"height":97},
+		{"id":"47f6d88f0b70a8ff","type":"text","text":"Модель «сущность-связь» или ER-модель","x":280,"y":126,"width":373,"height":64},
+		{"id":"1e07dce54979484b","x":760,"y":126,"width":405,"height":50,"type":"text","text":"Получение реляционной схемы из ER-схемы"},
+		{"id":"c31c09bd208f4c2b","x":743,"y":281,"width":440,"height":299,"type":"text","text":"Получение реляционной схемы из ER-схемы:\n\n1. Простые сущности становятся таблицами.\n2. Атрибуты становятся столбцами.\n3. Уникальные идентификаторы - первичные ключи.\n4. Связи \"многие к одному\" - внешние ключи.\n5. Создаются индексы для ключевых элементов.\n6. Для подтипов: одна таблица или отдельные таблицы."},
+		{"id":"116b37ffa778b26b","type":"text","text":"Основные понятия ER-модели:\n1. [[Сущность]]\n2. [[Связь]]\n3. [[Свойство]]","x":326,"y":281,"width":282,"height":179},
+		{"id":"34d859ec4f8e8a95","type":"text","text":"2. Семантическое моделирование данных.","x":267,"y":-80,"width":400,"height":60,"color":"1"}
+	],
+	"edges":[
+		{"id":"6e8b218c401f5af4","fromNode":"34d859ec4f8e8a95","fromSide":"bottom","toNode":"3c4e6acc0cdc4d15","toSide":"top"},
+		{"id":"f6b930e663655d09","fromNode":"3c4e6acc0cdc4d15","fromSide":"bottom","toNode":"40b3ee5e8cf0d15a","toSide":"top"},
+		{"id":"0c3fe63ac4c0edb3","fromNode":"34d859ec4f8e8a95","fromSide":"bottom","toNode":"47f6d88f0b70a8ff","toSide":"top"},
+		{"id":"ce74116419d6136c","fromNode":"47f6d88f0b70a8ff","fromSide":"bottom","toNode":"116b37ffa778b26b","toSide":"top"},
+		{"id":"add37802bf7feb2a","fromNode":"34d859ec4f8e8a95","fromSide":"bottom","toNode":"1e07dce54979484b","toSide":"top"},
+		{"id":"6c275f900e1a8401","fromNode":"1e07dce54979484b","fromSide":"bottom","toNode":"c31c09bd208f4c2b","toSide":"top"}
+	]
+}
